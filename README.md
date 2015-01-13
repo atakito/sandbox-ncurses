@@ -4,15 +4,13 @@ Just playing aroung with ncurses.
 
 http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/printw.html
 
-If you don't have the header files:
-
-```
+If you don't have the header files (ubuntu):
+```bash
 sudo apt-get install libncurses5-dev
 ```
 
 Build with:
-
-```
-gcc -o bin/executable-file-name source-file.c -lncurses
+```bash
+gcc -o bin/executable-file source-file.c -lncurses
 ```
 
