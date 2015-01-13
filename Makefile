@@ -1,5 +1,5 @@
 all: build
 
 build:
-	gcc -lncurses -o hello-world hello-world.c
+	gcc -o bin/hello-world hello-world.c -l ncurses
 
