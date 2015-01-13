@@ -11,6 +11,16 @@ sudo apt-get install libncurses5-dev
 
 Build with:
 ```bash
-gcc -o bin/executable-file source-file.c -lncurses
+gcc -o bin/executable-file source-file.c -l ncurses
+```
+
+Makefile
+```bash
+$ make fn=hello-world
+```
+
+This run:
+```bash
+gcc -l bin/hello-world hello-world.c -l ncurses
 ```
 
