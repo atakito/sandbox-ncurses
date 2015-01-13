@@ -2,8 +2,6 @@
 Just playing aroung with ncurses.
 
 
-http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/printw.html
-
 If you don't have the header files (ubuntu):
 ```bash
 sudo apt-get install libncurses5-dev
@@ -24,3 +22,6 @@ This run:
 gcc -l bin/hello-world hello-world.c -l ncurses
 ```
 
+## Useful Links
+- http://askubuntu.com/questions/270381/how-do-i-install-ncurses-header-files
+- http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/printw.html
